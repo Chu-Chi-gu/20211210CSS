@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+<style>
+	.normalDIV {
+		margin:10px;
+		padding:10px;
+		border:5px black solid;
+		height:300px;
+		width:300px;
+		overflow:auto;
+	}
+	.font1 {
+		font-family:"標楷體";
+		font-size:24px;
+		font-weight:bold;
+		font-style:italic;
+		line-height:12px;
+		color:blue;
+		text-align:center;
+		text-decoration:underline;
+		text-decoration-color:red;
+	}
+	.font2 {
+		font:oblique 100 18px/20px "Times New Roman";
+		color:red;
+		text-decoration:overline;
+		text-decoration-color:black;
+		letter-spacing:5px
+	}
+	.font3 {
+		font-size:30px;
+		line-height:15px;
+		color:black;
+		text-decoration:line-through;
+		text-shadow:3px 4px 2px blue;
+	}
+	.img1 {
+		border-radius:10px;
+		width:140px;
+		height:120px;
+		display:block;
+		opacity:0.5;
+	}
+	.clearfix {
+		clear:both;
+	}
+	
+</style>
+	<body>
+		<div style="float:left" class="normalDIV">
+			<p class="font1">
+				<br>I Love You</br>
+				<br>And You?</br>
+			</p>
+		</div>
+		
+		<div style="float:left" class="normalDIV">
+			<p class="font2">
+				<br>I Need You...</br>
+				<br>I went you</br>
+			</p>
+		</div>
+		<div style="float:left" class="normalDIV">
+			<img class="img1" src="IMG/翼-年代.jpg" alt="new world">
+			<p class="font3">
+				<br>Don't Worry...</br>
+			</p>
+			<div class="clearfix"></div>
+		</div>
+	</body>
+</htm>
